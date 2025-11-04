@@ -4,6 +4,9 @@ const nextConfig = {
   sassOptions: {
     includePaths: ["./styles"],
   },
+  output: 'export',            // para next export
+  basePath: '/aem-dialog-designer',    // reemplaza NOMBRE_REPO con tu repo
+  trailingSlash: true   
 }
 
 module.exports = nextConfig
