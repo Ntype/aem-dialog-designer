@@ -1,0 +1,37 @@
+.aem-panel {
+  @include card;
+  height: 100%;
+  
+  &__header {
+    padding: $spacing-md;
+    border-bottom: $border-width-thin solid $aem-border;
+  }
+  
+  &__title {
+    font-size: $font-size-md;
+    font-weight: $font-weight-medium;
+  }
+  
+  &__description {
+    font-size: $font-size-xs;
+    color: $color-muted;
+    margin-top: $spacing-xs;
+  }
+  
+  &__content {
+    padding: $spacing-md;
+    overflow: auto;
+  }
+  
+  &--design {
+    border-top: $border-width-thick solid $color-primary;
+  }
+  
+  &--properties {
+    background-color: $color-background;
+  }
+  
+  &--preview {
+    background-color: $color-background;
+  }
+}

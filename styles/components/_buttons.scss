@@ -1,0 +1,33 @@
+.aem-button {
+  &--primary {
+    @include button-primary;
+  }
+  
+  &--secondary {
+    @include button-secondary;
+  }
+  
+  &--icon {
+    @include button-base;
+    padding: $spacing-xs;
+    border-radius: 50%;
+    background: transparent;
+    
+    &:hover {
+      background-color: rgba($color-text, 0.05);
+    }
+  }
+  
+  &__icon {
+    width: 16px;
+    height: 16px;
+    
+    &--left {
+      margin-right: $spacing-xs;
+    }
+    
+    &--right {
+      margin-left: $spacing-xs;
+    }
+  }
+}

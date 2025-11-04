@@ -1,0 +1,20 @@
+.aem-icon {
+  color: $aem-icon;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  &--help {
+    cursor: help;
+  }
+  
+  &--action {
+    cursor: pointer;
+    
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

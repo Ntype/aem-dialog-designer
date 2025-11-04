@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: $font-family-base;
+  font-size: $font-size-md;
+  color: $color-text;
+  background-color: $color-background;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-medium;
+  margin-bottom: $spacing-md;
+}
+
+h1 { font-size: $font-size-xl; }
+h2 { font-size: $font-size-lg; }
+h3 { font-size: $font-size-md; }
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+input, textarea, select {
+  font-family: inherit;
+}

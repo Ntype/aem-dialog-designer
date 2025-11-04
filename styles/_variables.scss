@@ -1,0 +1,61 @@
+// Colores específicos de AEM
+$aem-text: #464646;
+$aem-border: #eaeaea;
+$aem-blue: #1473e6;
+$aem-blue-hover: #0d66d0;
+$aem-background: #ffffff;
+$aem-field-border: #d3d3d3;
+$aem-tab-active: #1473e6;
+$aem-icon: #707070;
+$aem-tooltip-bg: #323232;
+$aem-tooltip-text: #ffffff;
+
+// Colores del sistema
+$color-primary: $aem-blue;
+$color-primary-hover: $aem-blue-hover;
+$color-secondary: #f5f5f5;
+$color-text: $aem-text;
+$color-border: $aem-border;
+$color-background: $aem-background;
+$color-muted: #707070;
+$color-danger: #e34850;
+$color-success: #2d9d78;
+$color-warning: #e68619;
+
+// Espaciado
+$spacing-xs: 0.25rem;  // 4px
+$spacing-sm: 0.5rem;   // 8px
+$spacing-md: 1rem;     // 16px
+$spacing-lg: 1.5rem;   // 24px
+$spacing-xl: 2rem;     // 32px
+$spacing-xxl: 3rem;    // 48px
+
+// Tipografía
+$font-family-base: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$font-size-xs: 0.75rem;   // 12px
+$font-size-sm: 0.875rem;  // 14px
+$font-size-md: 1rem;      // 16px
+$font-size-lg: 1.25rem;   // 20px
+$font-size-xl: 1.5rem;    // 24px
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Bordes y sombras
+$border-radius-sm: 0.125rem;  // 2px
+$border-radius-md: 0.25rem;   // 4px
+$border-radius-lg: 0.5rem;    // 8px
+
+$border-width-thin: 1px;
+$border-width-thick: 2px;
+
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;

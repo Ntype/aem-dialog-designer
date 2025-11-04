@@ -1,0 +1,39 @@
+.aem-tooltip {
+  position: relative;
+  
+  &__content {
+    position: absolute;
+    z-index: 10;
+    background-color: $aem-tooltip-bg;
+    color: $aem-tooltip-text;
+    padding: $spacing-sm;
+    border-radius: $border-radius-md;
+    font-size: $font-size-xs;
+    max-width: 250px;
+    box-shadow: $shadow-md;
+    
+    &--top {
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-$spacing-xs);
+    }
+    
+    &--bottom {
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%) translateY($spacing-xs);
+    }
+    
+    &--left {
+      right: 100%;
+      top: 50%;
+      transform: translateY(-50%) translateX(-$spacing-xs);
+    }
+    
+    &--right {
+      left: 100%;
+      top: 50%;
+      transform: translateY(-50%) translateX($spacing-xs);
+    }
+  }
+}
